@@ -14,13 +14,13 @@ spec:
     spec:
       containers:
       - name: react-application
-        image: docker.io/anaisurlichs/react-example:9.0.0
+        image: docker.io/anaisurlichs/react-example:0.0.3
         ports:
           - containerPort: 80
         imagePullPolicy: Always
         resources:
           limits:
-            memory: 512Mi
+            memory: 524Mi
             cpu: 200m
         securityContext:
           allowPrivilegeEscalation: false
